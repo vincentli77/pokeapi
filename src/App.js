@@ -153,7 +153,6 @@ function App() {
             </div>
           </Route>
         ))}
-                <Redirect to="/"></Redirect>
 
       </Switch>
     </BrowserRouter>
