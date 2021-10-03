@@ -49,7 +49,7 @@ const Pokemon = (props) => {
 
   return (
     <div className="card" style={colored}>
-      <Link to={'/pokeapi/'+props.pkmn}>
+      <Link to={'/'+props.pkmn}>
         <h2 className="pkmon_name">{props.pkmn}</h2>
         {data_pokemon.sprites && (
           <svg width="90" height="90">

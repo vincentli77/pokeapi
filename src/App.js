@@ -86,7 +86,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/pokeapi">
+        <Route exact path="/">
           <div className="contain">
             <Navigation />
 
@@ -98,7 +98,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/pokeapi/generation_2">
+        <Route exact path="/generation_2">
           <div className="contain">
             <Navigation />
 
@@ -110,7 +110,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/pokeapi/generation_3">
+        <Route exact path="/generation_3">
           <div className="contain">
             <Navigation />
 
@@ -122,7 +122,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/pokeapi/generation_4">
+        <Route exact path="/generation_4">
           <div className="contain">
             <Navigation />
 
@@ -134,7 +134,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/pokeapi/generation_5">
+        <Route exact path="/generation_5">
           <div className="contain">
             <Navigation />
 
@@ -146,7 +146,7 @@ function App() {
           </div>
         </Route>
         {pokemon.map((data, index) => (
-          <Route key={index} path="/pokeapi/:data">
+          <Route key={index} path="/:data">
             <Navigation />
             <div className="contain">
               <SinglePokemon key={index} />
