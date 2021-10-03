@@ -1,0 +1,112 @@
+.card_pokemon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+
+    .return{
+        width: 100px;
+        height: 50px;
+        position: absolute;
+        top:20%;
+        left: 5%;
+        background-color: rgb(173, 236, 236);
+        border: none;
+
+        a{
+            text-decoration: none;
+        }
+        
+    }
+    .container {
+        margin-top: 5%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        border: 2px solid black;
+        border-radius: 20px;     
+        background-color: rgb(173, 236, 236);   
+        width: 70vw;
+        .info_pokemon {
+
+            width: 60vw;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+    
+            .name{
+                display: flex;
+                align-items: center;
+                width: 500px;
+                justify-content: space-between;
+
+                .types{
+                width: 300px;
+
+                .type{
+                    padding: 5px 25px 5px 25px;
+                    text-align: center;
+                    margin: 1%;
+                    border-radius: 10%;
+                    text-transform: capitalize;
+                 
+
+                }
+                
+                }
+            
+            }
+            data {
+                width: 500px;
+
+            }
+
+            img {
+                max-width: 200px;
+            }
+
+            h2 {
+                font-size: 1.2em;
+                text-transform: capitalize;
+            }
+
+            .stats {
+                display: flex;
+                align-items: center;
+                width: 500px;
+                justify-content: space-between;
+                overflow: hidden;
+                font-size: 1em;
+
+                .progress {
+                    background-color: rgb(230, 230, 230);
+                    width: 300px;
+                    height: 10px;
+
+                    .progress-bar {
+                        background-color: yellow;
+                        height: 10px;
+                        animation: anim 0.5s ;
+
+                        
+
+                    }
+                    @keyframes anim {
+                        from {width: 0px;}
+                      }
+                }
+            }
+
+
+
+        }
+
+        .description{
+            width: 80%;
+            margin: 0 auto;
+            font-size: 1em;
+        }
+    }
+
+
+}

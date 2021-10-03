@@ -1,0 +1,35 @@
+.header{
+    width: 100%;
+    height: 75px;
+    background-color: red;
+    margin: 0 ;
+    display: flex;
+    align-items: center;  
+    position: fixed;
+    top:0;
+    h1{
+        margin-left: 2%;
+        color: rgb(255, 217, 0);
+    }
+
+    .gen{
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10%;
+
+        li{
+            width: 200px;
+            border-radius: 10%;
+            border: 1px black;
+            list-style: none;
+        }
+        a{  text-decoration: none;
+            color: rgb(255, 217, 0);
+            width: 100px;
+        }
+        a:hover{
+            color: black;
+        }
+    }
+}

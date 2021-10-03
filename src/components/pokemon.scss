@@ -1,0 +1,19 @@
+.card{
+    width: 200px;
+    height: 200px;
+    margin-top: 2%;
+    text-align: center;
+
+    a{
+        text-decoration: none;
+        color: black;
+        h2{
+            font-size: 1.2em;
+        }
+    }
+}
+
+.pkmon_name{
+    text-transform: capitalize;
+    text-decoration: none   ;
+}
