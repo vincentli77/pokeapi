@@ -98,7 +98,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/2">
+        <Route exact path="/test">
           <div className="contain">
             <Navigation />
 
