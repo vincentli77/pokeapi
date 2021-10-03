@@ -98,7 +98,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/2">
+        <Route exact path="/generation_2">
           <div className="contain">
             <Navigation />
 
@@ -110,7 +110,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/3">
+        <Route exact path="/generation_3">
           <div className="contain">
             <Navigation />
 
@@ -122,7 +122,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/4">
+        <Route exact path="/generation_4">
           <div className="contain">
             <Navigation />
 
@@ -134,7 +134,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/5">
+        <Route exact path="/generation_5">
           <div className="contain">
             <Navigation />
 

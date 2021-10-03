@@ -6,10 +6,10 @@ const Navigation = () => {
         <h1>POKEDEX </h1>
         <ul className="gen">
             <li><a href="/">Géneration 1 </a> </li>
-            <li><a href="/2">Géneration 2 </a> </li>
-            <li><a href="/3">Géneration 3 </a> </li>
-            <li><a href="/4">Géneration 4 </a> </li>
-            <li><a href="/5">Géneration 5 </a> </li>
+            <li><a href="/generation_2">Géneration 2 </a> </li>
+            <li><a href="/generation_3">Géneration 3 </a> </li>
+            <li><a href="/generation_4">Géneration 4 </a> </li>
+            <li><a href="/generation_5">Géneration 5 </a> </li>
 
         </ul>
       </div>
