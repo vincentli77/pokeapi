@@ -1,7 +1,7 @@
 import "./App.scss";
 import Pokemon from "./components/Pokemon";
 import React, { useState, useEffect } from "react";
-import { Route, Switch, BrowserRouter } from "react-router-dom";
+import { Redirect,Route, Switch, BrowserRouter } from "react-router-dom";
 import SinglePokemon from "./components/SinglePokemon";
 import Navigation from "./components/Navigation";
 
@@ -153,6 +153,8 @@ function App() {
             </div>
           </Route>
         ))}
+                <Redirect to="/"></Redirect>
+
       </Switch>
     </BrowserRouter>
   );
