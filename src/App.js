@@ -86,7 +86,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/">
+        <Route exact path="/pokeapi">
           <div className="contain">
             <Navigation />
 
@@ -153,7 +153,7 @@ function App() {
             </div>
           </Route>
         ))}
-                <Redirect to="/"></Redirect>
+                <Redirect to="/pokeapi"></Redirect>
 
       </Switch>
     </BrowserRouter>
