@@ -86,7 +86,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route  path="/">
+        <Route exact path="/">
           <div className="contain">
             <Navigation />
 
