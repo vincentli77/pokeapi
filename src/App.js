@@ -86,7 +86,7 @@ function App() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route exact path="/">
+        <Route  path="/">
           <div className="contain">
             <Navigation />
 
@@ -98,7 +98,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/generation_2">
+        <Route  path="/generation_2">
           <div className="contain">
             <Navigation />
 
@@ -110,7 +110,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/generation_3">
+        <Route  path="/generation_3">
           <div className="contain">
             <Navigation />
 
@@ -122,7 +122,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/generation_4">
+        <Route  path="/generation_4">
           <div className="contain">
             <Navigation />
 
@@ -134,7 +134,7 @@ function App() {
           </div>
         </Route>
 
-        <Route exact path="/generation_5">
+        <Route  path="/generation_5">
           <div className="contain">
             <Navigation />
 
